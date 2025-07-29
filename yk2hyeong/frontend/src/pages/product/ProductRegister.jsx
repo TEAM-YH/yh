@@ -122,7 +122,7 @@ export default function ProductRegister() {
     }
 
     if (!isBasicInfoValid(productForm)) {
-      alert('기본 정보를 모두 입력해주세요.')
+      alert(`'2.기본정보' 탭의 필수값(*)을 모두 입력해주세요.`)
       return
     }
 
@@ -139,7 +139,7 @@ export default function ProductRegister() {
     }
 
     if (!isDescriptionValid()) {
-      alert('상세 설명을 입력해주세요.')
+      alert(`'3.상품소개' 탭의 필수값(*)을 모두 입력해주세요.`)
       return
     }
 

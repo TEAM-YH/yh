@@ -32,6 +32,12 @@ yarn create react-app frontend
 
 ---
 
+#### AI 실행 방법 (시세 리포트 다운)
+
+#### 1. AI폴더의 runapi.bat 파일 실행
+
+---
+
 # 🌾 농산물 가격 예측 기반 직거래 플랫폼
 본 프로젝트는 React + Spring Boot + MyBatis + Oracle 기반의
 농산물 예약 및 가격 예측 기능을 포함한 직거래 플랫폼입니다.

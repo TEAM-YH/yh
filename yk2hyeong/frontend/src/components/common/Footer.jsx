@@ -92,7 +92,7 @@ export default function Footer() {
             }}
             className={isBouncing ? 'bounce-anim' : ''}
             onClick={() =>
-              window.open('http://192.168.0.139:5000/', '_blank', 'width=700,height=700')
+              window.open('http://localhost:5000/', '_blank', 'width=700,height=700')
             }
           />
         </div>
